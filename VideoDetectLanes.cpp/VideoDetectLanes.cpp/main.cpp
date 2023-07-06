@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include </opt/homebrew/Cellar/opencv/4.8.0/include/opencv2/opencv.hpp>         // path is a bit different because M1 Mac Homebrew install (I think?)
+#include "LudicrousLaneDetector.hpp"
 
 
 int main(int argc, const char * argv[]) {
@@ -18,14 +19,17 @@ int main(int argc, const char * argv[]) {
     std::cout << "Enter Video Path:";
     std::cin >> videoPath;
     
-    std::cout << "videoPath: " << videoPath;
+    std::cout << "videoPath: " << videoPath << std::endl;
     
     cv::VideoCapture cap;
     
     if (videoPath != "") {
-        std::cout << "Yay!";
+        std::cout << "Yay!" << std::endl;
         cap.open(videoPath);
     }
+    
+    std::cout << "main2: ";
+    main2();
     
     // if no success, exit program
     if (cap.isOpened() == false) {

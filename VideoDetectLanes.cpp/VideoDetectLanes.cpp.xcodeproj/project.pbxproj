@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C0AAD1D62A4EAF5300EA5A89 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0AAD1D52A4EAF5300EA5A89 /* main.cpp */; };
+		C0AAD1DE2A5682CD00EA5A89 /* LudicrousLaneDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C0AAD1DC2A5682CD00EA5A89 /* LudicrousLaneDetector.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		C0AAD1D22A4EAF5300EA5A89 /* VideoDetectLanes.cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = VideoDetectLanes.cpp; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0AAD1D52A4EAF5300EA5A89 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C0AAD1D52A4EAF5300EA5A89 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; wrapsLines = 1; };
+		C0AAD1DC2A5682CD00EA5A89 /* LudicrousLaneDetector.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LudicrousLaneDetector.cpp; sourceTree = "<group>"; };
+		C0AAD1DD2A5682CD00EA5A89 /* LudicrousLaneDetector.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LudicrousLaneDetector.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		C0AAD1C92A4EAF5300EA5A89 = {
 			isa = PBXGroup;
 			children = (
+				C0AAD1DC2A5682CD00EA5A89 /* LudicrousLaneDetector.cpp */,
+				C0AAD1DD2A5682CD00EA5A89 /* LudicrousLaneDetector.hpp */,
 				C0AAD1D42A4EAF5300EA5A89 /* VideoDetectLanes.cpp */,
 				C0AAD1D32A4EAF5300EA5A89 /* Products */,
 			);
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0AAD1DE2A5682CD00EA5A89 /* LudicrousLaneDetector.cpp in Sources */,
 				C0AAD1D62A4EAF5300EA5A89 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
